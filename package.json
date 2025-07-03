@@ -1,0 +1,39 @@
+{
+  "name": "shopee-chat-bridge-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that bridges Shopee customer chat with admin using web scraping and browser automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "shopee",
+    "chat",
+    "bridge",
+    "automation",
+    "puppeteer"
+  ],
+  "author": "Bot Developer",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.0.0",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "axios": "^1.5.0",
+    "moment": "^2.29.0",
+    "cron": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
